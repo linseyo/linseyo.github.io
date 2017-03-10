@@ -1,5 +1,5 @@
-$(document).ready(function() {
+$(function() {
 
-	$('h1').hide(1000).delay(100).show(1000);
-
+	$('h1').delay(300).slideUp(500).delay(500).slideDown(1000);
+	
 });
