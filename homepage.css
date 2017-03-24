@@ -1,0 +1,14 @@
+h1 {
+	font-family: 'Great Vibes', cursive;
+	font-kerning: normal;
+	font-size: 2em;
+	padding-left: 150px;
+}
+
+#main {
+	position: absolute;
+	border: 2px solid blue;
+	margin-left: 400px;
+	margin-top: 250px;
+	padding: 30px;
+}
