@@ -4,18 +4,62 @@
 	<meta charset="UTF-8">
 	<title>Linsey Reed</title>
 	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href='skeleton.css' rel='stylesheet' type='text/css'>
 	<link href='homepage.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div id="main">
-	<h1>Linsey Reed</h1>
-		<p><em>Biology & Psychology Graduate | Full-Stack Web Developer in Training</em></p>
+	<div class="wrapper">
+		<div class="main">
+			<section class="page1">
+				<div class="page_container">
+					<div class="opener">
+						<h1>Linsey Reed</h1>
+							<p><em>Biology & Psychology Graduate | Full-Stack Web Developer</em></p>
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					</div>
+				</div>
+			</section>
+
+			<section class="page2">
+				<div class="page_container">
+					<div class="portfolio">
+						Portfolio Items here
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					</div>
+				</div>
+			</section>
+
+			<section class="page3">
+				<div class="page_container">
+					<div class="about-me">
+						More About Me Here
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					</div>
+				</div>
+			</section>
+
+			<section class="page4">
+				<div class="page_container">
+					<div class="extra">
+						Extra stuffz
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					</div>
+				</div>
+			</section>
 
 
-
-<!-- link jquery to html text -->
-	<script type="text/javascript" src="jquery-3.1.1.js"> </script>
-	<script type="text/javascript" src="homepage.js"></script>
+	<!-- link jquery to html text -->
+		<script type="text/javascript" src="jquery-3.1.1.js"> </script>
+		<script type="text/javascript" src="onepagescroll.js"></script>
+	</div>
 </div>
+
+	<script>
+		onePageScroll(".main", {
+		 sectionContainer: "section",
+		 loop: true,
+		 responsiveFallback: false
+		});
+	</script>
 </body>
 </html>
