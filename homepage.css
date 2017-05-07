@@ -70,14 +70,14 @@ p {
 }
 
 .main section.page2 {
-  background:#e5e6eb;
+  background: #e5e6eb;
 }
 
 .main section.page2 .page_container {
   overflow: hidden;
 }
 .main section.page3 {
-  background:#c0c2ce;
+  background: #c0c2ce;
 }
 
 .main section.page3 .page_container {
@@ -87,7 +87,7 @@ p {
 }
 
 .main section.page4 {
-  background: orange;
+  background: #9b9da9;
 }
 
 .main section.page4 .page_container {
