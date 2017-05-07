@@ -3,19 +3,100 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Linsey Reed</title>
-	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href='skeleton.css' rel='stylesheet' type='text/css'>
+	<link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
 	<link href='homepage.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div id="main">
-	<h1>Linsey Reed</h1>
-		<p><em>Biology & Psychology Graduate | Full-Stack Web Developer in Training</em></p>
+	<nav class="navbar">
+		<a href="index.html">Home</a>
+		<a href="index.html#2">Work</a>
+	</nav>
+	<div class="wrapper">
+		<div class="main">
 
+			<section class="page1">
+				<div class="page_container">
+					<div class="opener">
+						<div class="five columns offset-by-three headshot">
+							<img src="portfolio-picture.png" alt="headshot">
+						</div>
+						<div class="three columns opener-content">
+							<h1>LINSEY REED</h1>
+							<p>FULL STACK WEB DEVELOPER</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
+			<section class="page2">
+				<div class="page_container">
+					<div class="portfolio">
+						<div class="two-thirds columns offset-by-one">
+							<a href="portfolio-cornman.html"><img src="cornman-gameview.png"></a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-<!-- link jquery to html text -->
-	<script type="text/javascript" src="jquery-3.1.1.js"> </script>
-	<script type="text/javascript" src="homepage.js"></script>
+			<section class="page3">
+				<div class="page_container">
+						<div class="linsey-about two columns offset-by-two">
+    						<img src="linsey.gif" height="210" width="210">
+						</div>
+						<div class="four columns offset-by-one about-content">
+    					<p>
+						  	Aloha! My name is Linsey and I'm an island girl from Hawai'i now residing in <em>Seattle!</em> I enjoy eating delicious food and writing code for fun consumer projects!
+							</p>
+							<p>
+								You can catch me usually with my phone in one hand and a Starbucks drink in the other camped infront of my Macbook writing code or trying to find the next trendy food spot!
+							</p>
+							<p>
+								Prior to coding I was working in Health Information Management and also did IT Tech Support for 3 years while earning my BA in Biology. I soon found myself yearning to content create again and thus renewed my love for coding! </p>
+							<p>
+								I hope to bring together my passions for collaboration, digital media, bold branding and code into a space where they can bring happiness for others. I seek to employ creativity and accountability in my code paralleled with my desire to help others find their happiness, all bundled up in an environment that continues to promote honesty and trust. These core values drive not only my work and my approach to problems but also my life.
+    					</p>
+						    <a href="mailto:reedlinsey@gmail.com">
+						      <img src="email.png" height="30" width="30">
+						    </a>
+						    <a href="http://linkedin.com/in/reedlinsey">
+						      <img src="linkedin.png" height="30" width="30">
+						    </a>
+						    <a href="https://github.com/linseyo">
+						      <img src="github.png" height="30" width="30">
+						    </a>
+						    <a href="https://linseyo.github.io/">
+						      <img src="portfolio.png" height="30" width="30">
+						    </a>
+  					</div>
+				</div>
+			</section>
+
+			<section class="page4">
+				<div class="page_container">
+					<div class="extra">
+						Extra stuffz
+						<br><br><br><br><br><br><br><br><br>
+						<br><br><br><br><br><br><br><br><br>
+						<br><br><br><br><br><br><br>
+					</div>
+				</div>
+			</section>
+
+	</div>
 </div>
+
+
+	<!-- link jquery to html text -->
+		<script type="text/javascript" src="jquery-3.1.1.js"> </script>
+		<script type="text/javascript" src="onepagescroll.js"></script>
+	<script>
+		onePageScroll(".main", {
+		 sectionContainer: "section",
+		 loop: true,
+		 responsiveFallback: false
+		});
+	</script>
 </body>
 </html>

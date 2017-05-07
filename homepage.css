@@ -1,14 +1,189 @@
-h1 {
-	font-family: 'Great Vibes', cursive;
-	font-kerning: normal;
-	font-size: 2em;
-	padding-left: 150px;
+html {
+	height: 100%;
 }
 
-#main {
-	position: absolute;
-	border: 2px solid blue;
-	margin-left: 400px;
-	margin-top: 250px;
-	padding: 30px;
+body {
+	position: relative;
+	margin: 0;
+	height: 100%;
+}
+
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+h1, h2 {
+	font-kerning: normal;
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+	font-family: 'Oswald', sans-serif;
+	font-kerning: normal;
+	font-size: 1em;
+	margin-left: 1%;
+}
+
+/* unvisited link */
+.navbar a:link {
+  color: #1EAEDB;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+/* visited link */
+.navbar a:visited {
+  color: #042c84;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* mouse over link */
+.navbar a:hover {
+  color: #1EAEDB;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* selected link */
+.navbar a:active {
+  color: #1EAEDB;
+  font-family: 'Oswald', sans-serif;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main section .page_container {
+  position: relative;
+  height: 100%;
+  margin: 0 auto 0;
+  z-index: 3;
+}
+
+.main section  {
+  overflow: hidden;
+}
+
+.main section.page1 {
+  background:##f5eaeb;
+}
+
+.opener-content {
+	margin-top: 13%;
+	margin-left: -8%;
+}
+
+.opener-content p {
+	margin-top: -13%;
+}
+
+.opener .headshot img {
+	/*border-top-left-radius: 100% 90%;
+ 	border-top-right-radius: 100% 90%;
+ 	border-bottom-right-radius: 100% 90%;
+ 	border-bottom-left-radius: 100% 90%;*/
+	height: 75%;
+	width: 75%;
+	margin-top: 20%;
+}
+
+.main section.page2 {
+  background: #e5e6eb;
+}
+
+.main section.page2 .page_container {
+  overflow: hidden;
+}
+
+.portfolio img {
+	height: 25%;
+	width: 25%;
+}
+
+.portfolio img:hover {
+	opacity: 0.5;
+}
+
+.main section.page3 {
+  background: #c0c2ce;
+}
+
+.main section.page3 .page_container {
+  width: 100%;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.linsey-about {
+	margin-top: 6%;
+}
+
+.about-content img{
+	margin-left: 20px;
+}
+
+.about-content p {
+	text-align: justify;
+}
+
+.main section.page4 {
+  background: #9b9da9;
+}
+
+.main section.page4 .page_container {
+  overflow: hidden;
+}
+
+
+body.disabled-onepage-scroll .onepage-wrapper  section {
+  min-height: 100%;
+  height: auto;
+}
+
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page4 .page_container  {
+  padding: 20px;
+  margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body.disabled-onepage-scroll  section .page_container h1{
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+}
+body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
+  text-align: center;
+  width: 100%;
+}
+
+body.disabled-onepage-scroll .main section.page1 > img {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+}
+
+body.disabled-onepage-scroll code {
+  width: 95%;
+  margin: 0 auto 25px;
+  float: none;
+  overflow: hidden;
+}
+
+body.disabled-onepage-scroll .main section.page4 .page_container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
 }
