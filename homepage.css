@@ -16,10 +16,13 @@ body {
 }
 
 h1 {
-	font-family: 'Great Vibes', cursive;
 	font-kerning: normal;
 	font-size: 2em;
-	padding-left: 150px;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
 }
 
 .main {
@@ -40,7 +43,30 @@ h1 {
 }
 
 .main section.page1 {
-  background:#C6E2FF;
+  background:##f5eaeb;
+}
+
+/*.opener h1 {
+	margin-top: 200px;
+}*/
+
+.opener-content {
+	margin-top: 13%;
+	margin-left: -8%;
+}
+
+.opener-content p {
+	margin-top: -13%;
+}
+
+.opener .headshot img {
+	/*border-top-left-radius: 100% 90%;
+ 	border-top-right-radius: 100% 90%;
+ 	border-bottom-right-radius: 100% 90%;
+ 	border-bottom-left-radius: 100% 90%;*/
+	height: 75%;
+	width: 75%;
+	margin-top: 20%;
 }
 
 .main section.page2 {
