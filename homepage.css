@@ -25,6 +25,38 @@ p {
 	font-family: 'Oswald', sans-serif;
 }
 
+.navbar {
+	font-family: 'Oswald', sans-serif;
+	font-kerning: normal;
+	font-size: 1em;
+	margin-left: 1%;
+}
+
+/* unvisited link */
+.navbar a:link {
+  color: #d89f9f;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+/* visited link */
+.navbar a:visited {
+  color: #dbf2ea;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* mouse over link */
+.navbar a:hover {
+  color: #ffece4;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* selected link */
+.navbar a:active {
+  color: #926f58;
+  font-family: 'Oswald', sans-serif;
+}
+
 .main {
   float: left;
   width: 100%;
