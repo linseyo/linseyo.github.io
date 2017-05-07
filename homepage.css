@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 
-h1 {
+h1, h2 {
 	font-kerning: normal;
 	font-size: 2em;
 	font-family: 'Oswald', sans-serif;
@@ -34,26 +34,26 @@ p {
 
 /* unvisited link */
 .navbar a:link {
-  color: #d89f9f;
+  color: #1EAEDB;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
 }
 
 /* visited link */
 .navbar a:visited {
-  color: #dbf2ea;
+  color: #042c84;
   font-family: 'Oswald', sans-serif;
 }
 
 /* mouse over link */
 .navbar a:hover {
-  color: #ffece4;
+  color: #1EAEDB;
   font-family: 'Oswald', sans-serif;
 }
 
 /* selected link */
 .navbar a:active {
-  color: #926f58;
+  color: #1EAEDB;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -122,6 +122,18 @@ p {
   width: 100%;
   overflow: hidden;
   margin: 10px auto;
+}
+
+.linsey-about {
+	margin-top: 6%;
+}
+
+.about-content img{
+	margin-left: 20px;
+}
+
+.about-content p {
+	text-align: justify;
 }
 
 .main section.page4 {
