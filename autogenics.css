@@ -7,29 +7,28 @@
 
 /* unvisited link */
 .navbar a:link {
-  color: #1EAEDB;
+  color: #d89f9f;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
 }
 
 /* visited link */
 .navbar a:visited {
-  color: #042c84;
+  color: #dbf2ea;
   font-family: 'Oswald', sans-serif;
 }
 
 /* mouse over link */
 .navbar a:hover {
-  color: #1EAEDB;
+  color: #ffece4;
   font-family: 'Oswald', sans-serif;
 }
 
 /* selected link */
 .navbar a:active {
-  color: #1EAEDB;
+  color: #926f58;
   font-family: 'Oswald', sans-serif;
 }
-
 
 h3 {
 	font-kerning: normal;
@@ -46,6 +45,31 @@ p {
 
 a {
   margin-left: 55%;
+}
+
+/* unvisited link */
+.navbar a:link {
+  color: #1EAEDB;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+/* visited link */
+.navbar a:visited {
+  color: #042c84;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* mouse over link */
+.navbar a:hover {
+  color: #042c84;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* selected link */
+.navbar a:active {
+  color: #1EAEDB;
+  font-family: 'Oswald', sans-serif;
 }
 
 /* unvisited link */
@@ -72,16 +96,14 @@ a:active {
   color: #1EAEDB;
   font-family: 'Oswald', sans-serif;
 }
-
-
 li {
   list-style: none;
 }
 
 img {
   margin-top: 2%;
-  height: 80%;
-  width: 80%;
+  height: 30%;
+  width: 30%;
   padding: 5px;
 }
 

@@ -31,6 +31,10 @@ p {
 	font-family: 'Oswald', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .navbar {
 	font-family: 'Oswald', sans-serif;
 	font-kerning: normal;
@@ -53,7 +57,7 @@ p {
 
 /* mouse over link */
 .navbar a:hover {
-  color: #1EAEDB;
+  color: #042c84;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -112,13 +116,13 @@ p {
 }
 
 .portfolio .design-code img {
-	height: 75%;
-	width: 75%;
+	height: 100%;
+	width: 100%;
 }
 
 .portfolio .photo-video img {
-	height: 80%;
-	width: 80%;
+	height: 100%;
+	width: 100%;
 }
 
 .portfolio img:hover {
