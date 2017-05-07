@@ -111,9 +111,14 @@ p {
   overflow: hidden;
 }
 
-.portfolio img {
-	height: 50%;
-	width: 50%;
+.portfolio .design-code img {
+	height: 75%;
+	width: 75%;
+}
+
+.portfolio .photo-video img {
+	height: 80%;
+	width: 80%;
 }
 
 .portfolio img:hover {
