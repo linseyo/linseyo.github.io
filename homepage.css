@@ -57,14 +57,18 @@ a {
 
 /* mouse over link */
 .navbar a:hover {
-  color: #042c84;
+  color: #364144;
   font-family: 'Oswald', sans-serif;
 }
 
 /* selected link */
 .navbar a:active {
-  color: #1EAEDB;
+  color: #507a87;
   font-family: 'Oswald', sans-serif;
+}
+
+.navbar a {
+	margin-left: 2%;
 }
 
 .main {
@@ -153,6 +157,15 @@ a {
 
 .main section.page4 {
   background: #acaeb8;
+}
+
+.skills p {
+	margin-top: -3%;
+	text-align: justify;
+}
+
+.skills h3 {
+	margin-top: -2%;
 }
 
 .main section.page4 .page_container {
