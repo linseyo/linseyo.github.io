@@ -20,13 +20,13 @@
 
 /* mouse over link */
 .navbar a:hover {
-  color: #1EAEDB;
+  color: #364144;
   font-family: 'Oswald', sans-serif;
 }
 
 /* selected link */
 .navbar a:active {
-  color: #1EAEDB;
+  color: #507a87;
   font-family: 'Oswald', sans-serif;
 }
 
