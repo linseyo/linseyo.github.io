@@ -159,6 +159,10 @@ a {
   overflow: hidden;
 }
 
+.main section.page4 p {
+	margin-top: -2%;
+}
+
 
 body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
