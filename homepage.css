@@ -21,8 +21,18 @@ h1, h2 {
 	font-family: 'Oswald', sans-serif;
 }
 
+h3 {
+	font-kerning: normal;
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+}
+
 p {
 	font-family: 'Oswald', sans-serif;
+}
+
+a {
+	text-decoration: none;
 }
 
 .navbar {
@@ -47,7 +57,7 @@ p {
 
 /* mouse over link */
 .navbar a:hover {
-  color: #1EAEDB;
+  color: #042c84;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -105,9 +115,14 @@ p {
   overflow: hidden;
 }
 
-.portfolio img {
-	height: 25%;
-	width: 25%;
+.portfolio .design-code img {
+	height: 100%;
+	width: 100%;
+}
+
+.portfolio .photo-video img {
+	height: 100%;
+	width: 100%;
 }
 
 .portfolio img:hover {
@@ -137,11 +152,15 @@ p {
 }
 
 .main section.page4 {
-  background: #9b9da9;
+  background: #acaeb8;
 }
 
 .main section.page4 .page_container {
   overflow: hidden;
+}
+
+.main section.page4 p {
+	margin-top: -1%;
 }
 
 
