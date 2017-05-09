@@ -186,11 +186,17 @@ a {
 .tech-skill-content {
 	padding: 0 5px 2px 5px;
 	color: white;
+	font-kerning: auto;
+	font-weight: 100;
+	font-size: 14px;
 }
 
 .ot-skill-content {
 	padding: 0 5px 2px 5px;
 	color: white;
+	font-kerning: auto;
+	font-weight: 100;
+	font-size: 14px;
 }
 
 .skills p {
