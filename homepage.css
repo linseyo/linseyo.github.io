@@ -212,6 +212,10 @@ a {
 	margin-top: -1%;
 }
 
+.extra b {
+	color: #4fb8ce;
+}
+
 
 body.disabled-onepage-scroll .onepage-wrapper  section {
   min-height: 100%;
