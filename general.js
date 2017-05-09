@@ -9,28 +9,19 @@ $( document ).ready(function() {
 
   $('.plan').on("click", "img", function(e){
     e.preventDefault();
-    $('.plan').find('p').hide();
-    $('.iterate').find('p').hide();
-    $('.deliver').find('p').hide();
-    $('.plan').find('p').slideDown();
+    $('.plan').find('p').slideToggle();
 
   })
 
   $('.iterate').on("click", "img", function(e){
     e.preventDefault();
-    $('.plan').find('p').hide();
-    $('.iterate').find('p').hide();
-    $('.deliver').find('p').hide();
-    $('.iterate').find('p').slideDown();
+    $('.iterate').find('p').slideToggle();
 
   })
 
   $('.deliver').on("click", "img", function(e){
     e.preventDefault();
-    $('.plan').find('p').hide();
-    $('.iterate').find('p').hide();
-    $('.deliver').find('p').hide();
-    $('.deliver').find('p').slideDown();
+    $('.deliver').find('p').slideToggle();
 
   })
 
