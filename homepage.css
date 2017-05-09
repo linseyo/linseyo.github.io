@@ -88,9 +88,9 @@ a {
   overflow: hidden;
 }
 
-.main section.page1 {
-  background:##f5eaeb;
-}
+/*.main section.page1 {
+  background: #f5eaeb;
+}*/
 
 .opener-content {
 	margin-top: 13%;
@@ -102,26 +102,38 @@ a {
 }
 
 .opener .headshot img {
-	/*border-top-left-radius: 100% 90%;
- 	border-top-right-radius: 100% 90%;
- 	border-bottom-right-radius: 100% 90%;
- 	border-bottom-left-radius: 100% 90%;*/
 	height: 75%;
 	width: 75%;
 	margin-top: 20%;
 }
 
-.main section.page2 {
-  background: #e5e6eb;
-}
+/*.main section.page2 {
+  background: #f5eaeb;
+}*/
 
 .main section.page2 .page_container {
   overflow: hidden;
 }
 
+.portfolio {
+	margin-top: 4%;
+}
+
 .portfolio .design-code img {
 	height: 100%;
 	width: 100%;
+}
+
+.portfolio .design-code {
+	background-color: #cb93a5;
+	padding: 20px 20px 20px 20px;
+	color: white;
+}
+
+.portfolio .photo-video {
+	background-color: #abb1b4;
+	padding: 20px 20px 20px 20px;
+	color: white;
 }
 
 .portfolio .photo-video img {
@@ -133,9 +145,9 @@ a {
 	opacity: 0.5;
 }
 
-.main section.page3 {
+/*.main section.page3 {
   background: #c0c2ce;
-}
+}*/
 
 .main section.page3 .page_container {
   width: 100%;
@@ -155,8 +167,24 @@ a {
 	text-align: justify;
 }
 
-.main section.page4 {
+/*.main section.page4 {
   background: #acafc1;
+}*/
+
+.technical-skill {
+	background-color: #cb93a5;
+}
+
+.other-skill {
+	background-color: #abb1b4;
+}
+
+.tech-skill-content {
+	padding: 0 5px 2px 5px;
+}
+
+.ot-skill-content {
+	padding: 0 5px 2px 5px;
 }
 
 .skills p {
@@ -165,7 +193,8 @@ a {
 }
 
 .skills h3 {
-	margin-top: -2%;
+	/*margin-top: -2%;*/
+	margin-left: 1%;
 }
 
 .main section.page4 .page_container {
