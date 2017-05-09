@@ -185,10 +185,12 @@ a {
 
 .tech-skill-content {
 	padding: 0 5px 2px 5px;
+	color: white;
 }
 
 .ot-skill-content {
 	padding: 0 5px 2px 5px;
+	color: white;
 }
 
 .skills p {
@@ -199,6 +201,7 @@ a {
 .skills h3 {
 	/*margin-top: -2%;*/
 	margin-left: 1%;
+	color: white;
 }
 
 .main section.page4 .page_container {
