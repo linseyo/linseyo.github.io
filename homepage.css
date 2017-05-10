@@ -6,6 +6,7 @@ body {
 	position: relative;
 	margin: 0;
 	height: 100%;
+	letter-spacing: 0.25px;
 }
 
 .wrapper {
@@ -69,6 +70,22 @@ a {
 
 .navbar a {
 	margin-left: 2%;
+}
+
+.nav-header {
+	text-align: right;
+}
+
+footer {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+		text-align: center;
+    background-color: #e5e5e5;
+		color: black;
+		font-family: 'Oswald', sans-serif;
+    height: 60px;/* or however high you would like */
 }
 
 .main {
@@ -159,6 +176,10 @@ a {
 	margin-top: 6%;
 }
 
+.about-content h1 {
+	margin-bottom: -3%;
+}
+
 .about-content img{
 	margin-left: 20px;
 }
@@ -171,10 +192,10 @@ a {
 	color: #4fb8ce;
 }
 
-/*.main section.page4 {
-  background: #acafc1;
-}*/
-
+.add-links {
+	text-align: center;
+	margin-left: 35px;
+}
 .technical-skill {
 	background-color: #cb93a5;
 }
@@ -214,12 +235,20 @@ a {
   overflow: hidden;
 }
 
-.main section.page4 p {
+/*.main section.page4 p {
 	margin-top: -1%;
-}
+}*/
 
 .extra b {
 	color: #4fb8ce;
+}
+
+.extra p {
+	margin-top: -1%;
+}
+
+.plan p {
+	margin-top: -2%;
 }
 
 
