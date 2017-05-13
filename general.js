@@ -6,6 +6,7 @@ $( document ).ready(function() {
   $('.photo-video-content').hide();
   $('.tech-skill-content').hide();
   $('.ot-skill-content').hide();
+  $('.exp-skill-content').hide();
 
   $('.plan').on("click", "img", function(e){
     e.preventDefault();
@@ -43,6 +44,11 @@ $( document ).ready(function() {
   $('.other-skill').on("click", "h3", function(e){
     e.preventDefault();
     $('.ot-skill-content').slideToggle();
+  })
+
+  $('.explore-skill').on("click", "h3", function(e){
+    e.preventDefault();
+    $('.exp-skill-content').slideToggle();
   })
 
 
