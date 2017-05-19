@@ -59,8 +59,8 @@ body, .onepage-wrapper, html {
 
 .onepage-pagination li a.active:before{
   content: '«';
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   background: none;
   margin-top: -4px;
   left: 8px;

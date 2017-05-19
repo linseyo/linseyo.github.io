@@ -1,4 +1,15 @@
 $( document ).ready(function() {
+  $(function () {
+    var $element = $('#notice');
+    setInterval(function () {
+        $element.fadeIn(1000, function () {
+            $element.fadeOut(1500, function () {
+                $element.fadeIn(1500)
+            });
+        });
+    }, 1000);
+  });
+
   $('.plan').find('p').hide();
   $('.iterate').find('p').hide();
   $('.deliver').find('p').hide();

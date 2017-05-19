@@ -105,9 +105,9 @@ footer {
   overflow: hidden;
 }
 
-/*.main section.page1 {
-  background: #f5eaeb;
-}*/
+.main section.page1 {
+  background: #ffffff;
+}
 
 .opener-content {
 	margin-top: 13%;
@@ -115,7 +115,7 @@ footer {
 }
 
 .opener-content p {
-	margin-top: -13%;
+	margin-top: -10%;
 }
 
 .opener .headshot img {
@@ -124,9 +124,9 @@ footer {
 	margin-top: 20%;
 }
 
-/*.main section.page2 {
-  background: #f5eaeb;
-}*/
+.main section.page2 {
+  background: #f7f7f7;
+}
 
 .main section.page2 .page_container {
   overflow: hidden;
@@ -162,9 +162,9 @@ footer {
 	opacity: 0.5;
 }
 
-/*.main section.page3 {
-  background: #c0c2ce;
-}*/
+.main section.page3 {
+  background: #f3f3f3;
+}
 
 .main section.page3 .page_container {
   width: 100%;
@@ -246,9 +246,9 @@ footer {
   overflow: hidden;
 }
 
-/*.main section.page4 p {
-	margin-top: -1%;
-}*/
+.main section.page4 {
+  background: #eaeaea;
+}
 
 .extra b {
 	color: #4fb8ce;
