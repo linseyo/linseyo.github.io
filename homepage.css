@@ -106,7 +106,8 @@ footer {
 }
 
 .main section.page1 {
-  background: #ffffff;
+  /*background: #ffffff;*/
+	background-image: url('../assets/images/Page1Background.png');
 }
 
 .opener-content {
