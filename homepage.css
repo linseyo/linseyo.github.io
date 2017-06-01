@@ -106,8 +106,11 @@ footer {
 }
 
 .main section.page1 {
-  /*background: #ffffff;*/
-	background-image: url('../assets/images/Page1Background.png');
+
+	background-image: url('./assets/images/Page1Background.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left;
 }
 
 .opener-content {
@@ -126,7 +129,7 @@ footer {
 }
 
 .main section.page2 {
-  background: #f7f7f7;
+  background: #f3f3f3;
 }
 
 .main section.page2 .page_container {
@@ -164,7 +167,7 @@ footer {
 }
 
 .main section.page3 {
-  background: #f3f3f3;
+  background: #ffffff;
 }
 
 .main section.page3 .page_container {
