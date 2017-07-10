@@ -105,13 +105,18 @@ footer {
   overflow: hidden;
 }
 
-.main section.page1 {
+.main section.page1 img {
+	width: 500px;
+	height: 100%;
+}
+
+/*.main section.page1 {
 
 	background-image: url('./assets/images/Page1Background.png');
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:left;
-}
+}*/
 
 .opener-content {
 	margin-top: 13%;
