@@ -1,0 +1,22 @@
+.snapwidget {
+  margin-top: 13%;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+.board {
+  margin-top: 2%;
+  /*background: #000000;*/
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.opening-food {
+  text-align: center;
+}
