@@ -4,4 +4,11 @@
 
 .basic-content {
   margin-top: 50px;
+  font-kerning: normal;
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+}
+
+.basic-content strong {
+  color: #519bd8;
 }
