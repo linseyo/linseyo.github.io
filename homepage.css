@@ -1,15 +1,69 @@
 body {
-	background-color: #bce2ff;
-}
-
-h1, h2, p  {
+	background-color: #f6feff;
 	font-family: 'Abel', sans-serif;
 }
 
-p strong {
-	color: #008fff;
+h1, h2, p  {
+	color: #454545;
 }
 
-.home-content {
-	margin-top: 20%;
+p strong {
+	color: #2a8d85;
+}
+
+.main-content {
+	margin-top: 15%;
+}
+
+.profile-pic img {
+	height: 250px;
+	width: 250px;
+}
+/* NAV BAR */
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav li a {
+    display: block;
+    color: #454545;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.main-nav li a:hover {
+    background-color: #f6feff;
+}
+
+.main-nav .active {
+    background-color: #4CAF50;
+}
+
+.social-icons {
+	float: right;
+}
+/* end nav */
+
+footer {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+		font-size: 12px;
+		text-align: center;
+		padding-top: 5px;
+    background-color: #dddddd;
+    height: 20px;
+		float: right;
 }
