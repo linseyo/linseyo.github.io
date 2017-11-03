@@ -12,7 +12,7 @@ p strong {
 }
 
 .main-content {
-	margin-top: 15%;
+	margin-top: 10%;
 }
 
 .profile-pic img {
@@ -66,4 +66,18 @@ footer {
     background-color: #dddddd;
     height: 20px;
 		float: right;
+}
+
+/*Projects*/
+
+.project {
+	background-color: #fff9fb;
+}
+
+.project:hover {
+	background-color: #eeeeee;
+}
+
+.project p {
+	text-align: center;
 }
