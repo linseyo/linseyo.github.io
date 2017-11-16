@@ -1,0 +1,62 @@
+.main {
+	background-color: #eeeeee;
+}
+
+.navvie {
+	background-color: #eeeeee;
+}
+
+.home {
+	background: #eeeeee url("https://farm8.staticflickr.com/7358/9307633002_f503dd41fb_k.jpg") no-repeat fixed right;
+	height: 500px;
+}
+
+.about {
+	margin-top: 100px;
+}
+
+.about b {
+	color: #f8ab99;
+}
+
+.bottom {
+	margin-top: 100px;
+}
+
+footer a {
+	font-size: 24px;
+}
+
+footer a:hover {
+    color:grey;
+    text-decoration:none;
+ }
+
+.projects a {
+	margin-left: 13px;
+}
+
+.design .btn-cust, .code .btn-cust, .pv .btn-cust {
+	background-color: #f8ab99;
+	border: 2px solid #f8ab99;
+	color: #eeeeee;
+}
+
+.design .btn-cust:hover, .code .btn-cust:hover, .pv .btn-cust:hover {
+	background-color: #d1efe4;
+	border: 2px solid #d1efe4;
+	color: #bbbbbb;
+}
+
+.code h2 {
+	margin-left: 29px;
+}
+
+.design h2 {
+	margin-left: 20px;
+}
+
+
+.pv h2{
+	margin-left: -40px;
+}
