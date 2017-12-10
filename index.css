@@ -58,9 +58,9 @@ footer a:hover {
     text-decoration:none;
  }
 
-.projects a {
+/*.projects a {
 	margin-left: 13px;
-}
+}*/
 
 .design .btn-cust, .code .btn-cust, .pv .btn-cust {
 	background-color: #f8ab99;
@@ -75,11 +75,11 @@ footer a:hover {
 }
 
 .code h2 {
-	margin-left: 29px;
+	margin-left: 0px;
 }
 
 .design h2 {
-	margin-left: 20px;
+	margin-left: -20px;
 }
 
 
