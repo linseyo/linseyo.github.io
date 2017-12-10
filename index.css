@@ -21,8 +21,13 @@
 	height: 500px;
 }
 
-.home {
+.cornman {
 	background: #eeeeee url('./assets/images/cornman-header.jpg') no-repeat fixed right;
+	height: 500px;
+}
+
+.pokeoverflow {
+	background: #eeeeee url('./assets/images/pokeoverflow1.png') no-repeat fixed right;
 	height: 500px;
 }
 
