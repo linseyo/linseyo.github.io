@@ -32,8 +32,13 @@
 }
 
 .auto {
-	background: #eeeeee url('./assets/images/autogenics-header.png') no-repeat fixed right;
-	height: 300px;
+	background: #eeeeee url('./assets/images/autogenics-header.png') no-repeat center ;
+	height: 330px;
+}
+
+.movie {
+	background: #eeeeee url('./assets/images/movieunplugged1.png') no-repeat fixed left ;
+	height: 330px;
 }
 
 .about {
