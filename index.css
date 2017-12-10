@@ -26,9 +26,9 @@
 	height: 500px;
 }
 
-.pokeoverflow {
+.poke {
 	background: #eeeeee url('./assets/images/pokeoverflow1.png') no-repeat fixed right;
-	height: 500px;
+	height: 300px;
 }
 
 .about {
@@ -93,6 +93,6 @@ footer a:hover {
 }
 
 
-.pv h2{
+/*.pv h2{
 	margin-left: -40px;
-}
+}*/
