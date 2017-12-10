@@ -21,6 +21,11 @@
 	height: 500px;
 }
 
+.home {
+	background: #eeeeee url('./assets/images/cornman-header.jpg') no-repeat fixed right;
+	height: 500px;
+}
+
 .about {
 	margin-top: 100px;
 }
