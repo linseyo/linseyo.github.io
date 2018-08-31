@@ -16,6 +16,10 @@ body {
 	text-decoration: none;
 }
 
+.main-description a:hover {
+	color: #ffb6c1;
+}
+
 .main-sidebar img {
 	max-width: 100%;
 }
