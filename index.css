@@ -1,108 +1,57 @@
-.main {
-	background-color: #eeeeee;
+
+body {
+	background-color: #f7fbf7;
 }
 
-.navbar-custom{
-	background-color: #eeeeee;
+.accent {
+	color: #3ab7af;
 }
 
-.navbar-custom .navbar-nav .nav-link:hover {
-    color: #f8ab99;
+.main-content {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 50px;
 }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text,
-.navbar-custom .nav-link {
-    color: #868e96;
+.main-description a {
+	text-decoration: none;
 }
 
-.home {
-	background: #eeeeee url("https://farm8.staticflickr.com/7358/9307633002_f503dd41fb_k.jpg") no-repeat fixed right;
-	height: 500px;
+.main-sidebar img {
+	max-width: 100%;
 }
 
-.cornman {
-	background: #eeeeee url('./assets/images/cornman-header.jpg') no-repeat fixed right;
-	height: 500px;
+.social-links i {
+	width: 20px;
+	height: 20px;
+	color: #515151;
+	-webkit-transition: ease 0.35s;
+    transition: ease 0.35s;
 }
 
-.poke {
-	background: #eeeeee url('./assets/images/pokeoverflow1.png') no-repeat fixed right;
-	height: 300px;
-}
-
-.auto {
-	background: #eeeeee url('./assets/images/autogenics-header.png') no-repeat center ;
-	height: 330px;
-}
-
-.movie {
-	background: #eeeeee url('./assets/images/movieunplugged1.png') no-repeat fixed left ;
-	height: 330px;
-}
-
-.about {
-	margin-top: 100px;
-}
-
-.about b {
-	color: #f8ab99;
-}
-
-.projects div {
-  margin-top: 50px;
-}
-
-.bottom {
-	margin-top: 100px;
-}
-
-i {
-  background: #bbbbbb;
-   width: 150px;
-   height: 150px;
-   border-radius: 50%;
-   text-align: center;
-   line-height: 150px;
-   vertical-align: middle;
-   padding-top: 40px;
-}
-}
-
-footer a {
-	font-size: 24px;
-}
-
-footer a:hover {
-    color:grey;
-    text-decoration:none;
- }
-
-/*.projects a {
-	margin-left: 13px;
-}*/
-
-.design .btn-cust, .code .btn-cust, .pv .btn-cust {
-	background-color: #f8ab99;
-	border: 2px solid #f8ab99;
-	color: #eeeeee;
-}
-
-.design .btn-cust:hover, .code .btn-cust:hover, .pv .btn-cust:hover {
-	background-color: #d1efe4;
-	border: 2px solid #d1efe4;
-	color: #bbbbbb;
-}
-
-.code h2 {
-	margin-left: 0px;
-}
-
-.design h2 {
-	margin-left: 0px;
+.social-links a:hover i {
+	color: #3ab7af;
 }
 
 
-/*.pv h2{
-	margin-left: -40px;
-}*/
+@media only screen and (min-width: 48em) { 
+
+	.main-content {
+		max-width: 1000px;
+		margin: 200px auto
+	}
+
+	.main-description {
+		float: left;
+		width: 58%;
+		padding-right: 20px
+	}
+
+	.main-sidebar {
+		float: right;
+		width: 40%;
+	}
+
+	.main-sidebar img {
+		max-width: 100%;
+	}
+}
