@@ -4,7 +4,17 @@ body {
 }
 
 .accent {
-	color: #3ab7af;3
+	color: #3ab7af;
+}
+
+a {
+	color: #3ab7af;
+	-webkit-transition: ease 0.35s;
+    transition: ease 0.35s;
+}
+
+a:hover {
+	color: #ffb6c1;
 }
 
 .main-content {
