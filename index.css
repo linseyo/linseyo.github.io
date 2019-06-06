@@ -1,6 +1,38 @@
-
 body {
-	background-color: #f7fbf7;
+	background-color: #f3efee;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.loader-beg, .loader-end {
+	display: block;
+	height: 100%;
+	position: absolute;
+	width: 50%;
+	z-index: 999;
+}
+
+.loader-beg {
+	background-color: #b3d2d0;
+	right: 50%;
+}
+
+.loader-end {
+	background-color: #7daba8;
+	right: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #515151;
+	letter-spacing: 5px;
+}
+
+.container {
+	flex-direction:	column;
+	width: 90%;
 }
 
 .accent {
@@ -11,22 +43,24 @@ a {
 	color: #3ab7af;
 	-webkit-transition: ease 0.35s;
     transition: ease 0.35s;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
 a:hover {
 	color: #ffb6c1;
 }
 
-.main-content {
-	font-family: 'Roboto Condensed', sans-serif;
+.about {
+	
 	margin: 50px;
 }
 
-.main-description a {
+.intro a {
 	text-decoration: none;
 }
 
-.main-description a:hover {
+.intro a:hover {
 	color: #ffb6c1;
 }
 
@@ -34,20 +68,116 @@ a:hover {
 	max-width: 100%;
 }
 
+.nav {
+	justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+}
+
 .social-links i {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
+	font-size: 22px;
 	color: #515151;
 	-webkit-transition: ease 0.35s;
     transition: ease 0.35s;
+    display: inline-block;
 }
 
 .social-links a:hover i {
 	color: #3ab7af;
 }
 
+.btn {
+	width: 50px;
+	background-color: #515151;
+	padding: 5px;
+	color: #fff;
+
+}
+
+.btn:hover {
+	color: #3ab7af;
+}
+
+
+
 ul {
 	list-style-type: square;
+}
+
+
+
+.intro {
+	opacity: 0;
+	display: flex;
+  	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: 'Monserrat', sans-serif;
+	color: #545454;
+	margin: 5px;
+	padding: 50px 0;
+	letter-spacing: 2px;
+}
+
+.intro .content {
+	flex-grow: 2;
+}
+
+.down {
+	display: flex;
+  	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding: 100px 0 ;
+}
+
+.btn2 {
+	background: none;
+	border: none;
+	opacity: 0;
+}
+
+.btn2 i {
+	font-size: 32px;
+	color: #515151;
+}
+
+
+.item-list {
+
+	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+}
+.item {
+	min-width: 0;
+  	margin: 0 5px;
+	transition: 0.8s ease;
+	
+}
+
+.item img {
+	width: 200px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+.item:hover {
+	transform: scale(0.9);
+}
+
+.projects {
+ 	opacity: 0;
+}
+
+.footer {
+	display: flex;
+  	justify-content: center;
+	padding: 25px 0 0;
 }
 
 
